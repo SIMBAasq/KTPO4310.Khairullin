@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO4310.Khairullin.UnitTest", "KTPO4310.Khairullin.UnitTest\KTPO4310.Khairullin.UnitTest.csproj", "{6224E554-ADD9-4D19-9485-4559E98BDCFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KTPO4310.Khairullin.Lib", "KTPO4310.Khairullin.Lib\KTPO4310.Khairullin.Lib.csproj", "{9C68C7D1-521A-4935-B818-EB515AC555D5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6224E554-ADD9-4D19-9485-4559E98BDCFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6224E554-ADD9-4D19-9485-4559E98BDCFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6224E554-ADD9-4D19-9485-4559E98BDCFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6224E554-ADD9-4D19-9485-4559E98BDCFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C68C7D1-521A-4935-B818-EB515AC555D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C68C7D1-521A-4935-B818-EB515AC555D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C68C7D1-521A-4935-B818-EB515AC555D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C68C7D1-521A-4935-B818-EB515AC555D5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
