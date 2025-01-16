@@ -18,7 +18,7 @@ namespace KTPO4310.Khairullin.UnitTest.src.LogAn
         [Test]
         public void IsValidLogFileName_GoodExtensionUppercase_ReturnsTrue()
         {
-            // Подготовка ткста
+            // Подготовка текста
             LogAnalyzer analyzer = new LogAnalyzer();
 
             // Воздействие на тестерируемый объект
@@ -29,7 +29,7 @@ namespace KTPO4310.Khairullin.UnitTest.src.LogAn
         [Test]
         public void IsValidLogFileName_GoodExtensionLowercase_ReturnsTrue()
         {
-            // Подготовка ткста
+            // Подготовка текста
             LogAnalyzer analyzer = new LogAnalyzer();
 
             // Воздействие на тестерируемый объект
