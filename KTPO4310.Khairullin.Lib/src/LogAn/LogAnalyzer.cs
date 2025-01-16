@@ -2,32 +2,23 @@
 
 namespace KTPO4310.Khairullin.Lib.src.LogAn
 {
+    /// <summary>
+    /// Анализатор лог файлов
+    /// </summary>
     public class LogAnalyzer
     {
-        public bool WasLastFileNameValid { get; set; }
+        
+
         public bool IsValidLogFileName(string fileName)
         {
-            WasLastFileNameValid = false;
-
-            if (string.IsNullOrEmpty(fileName))
-            {
-                throw new ArgumentException("имя файла должно быть задано");
-            }
-
-            if (fileName.EndsWith(".log", StringComparison.CurrentCultureIgnoreCase))
-            {
-                return false;
-            }
-
-            WasLastFileNameValid = true;
-
-            return true;
-
+            IExtensionManager extensionManager = ExtensionManagerFactory.Create();
+            // Обращаемся к полю вместо создания нового объекта
+            return extensionManager.IsValid(fileName);
         }
-
-
-
-
     }
 
+
+
+
 }
+
